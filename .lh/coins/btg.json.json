@@ -1,0 +1,18 @@
+{
+    "sourceFile": "coins/btg.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1668191693369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1668191693369,
+            "name": "Commit-0",
+            "content": "{\r\n    \"name\": \"Bitcoin Gold\",\r\n    \"symbol\": \"BTG\",\r\n    \"algorithm\": \"equihash\",\r\n    \"txfee\": 0.000005\r\n}\r\n"
+        }
+    ]
+}

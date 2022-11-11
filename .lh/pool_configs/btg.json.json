@@ -1,0 +1,18 @@
+{
+    "sourceFile": "pool_configs/btg.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1668191667892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1668191667892,
+            "name": "Commit-0",
+            "content": "{\r\n    \"enabled\": true,\r\n    \"coin\": \"btg.json\",\r\n\r\n    \"address\": \"AQEMhXkFvEiDBHaqLA19CcVmCz3dbQDHhk\",\r\n    \"_comment_address\": \"a transparent address to send coinbase rewards to and to transfer to zAddress.\",\r\n\r\n    \"tAddress\": \"Aeo9aCQj87xtuiDcf4CpQs8pnZVq9EMRfw\",\r\n    \"_comment_tAddress\": \"transparent address used to send payments, make this a different address, otherwise payments will not send\",\r\n\r\n    \"walletInterval\": 5,\r\n\r\n    \"tlsOptions\": {\r\n        \"enabled\": false,\r\n        \"serverKey\": \"\",\r\n        \"serverCert\": \"\",\r\n        \"ca\": \"\"\r\n    },\r\n\r\n    \"paymentProcessing\": {\r\n        \"minConf\": 10,\r\n        \"enabled\": true,\r\n        \"paymentMode\": \"prop\",\r\n        \"_comment_paymentMode\": \"prop, pplnt\",\r\n        \"paymentInterval\": 57,\r\n        \"_comment_paymentInterval\": \"Interval in seconds to check and perform payments.\",\r\n        \"minimumPayment\": 0.1,\r\n        \"maxBlocksPerPayment\": 3,\r\n        \"daemon\": {\r\n            \"host\": \"65.109.31.112\",\r\n            \"port\": 13862,\r\n            \"user\": \"rpcuser\",\r\n            \"password\": \"rpcpwd\"\r\n        }\r\n    },\r\n\r\n    \"ports\": {\r\n        \"3857\": {\r\n            \"tls\": false,\r\n            \"diff\": 0.05,\r\n            \"varDiff\": {\r\n                \"minDiff\": 0.04,\r\n                \"maxDiff\": 16,\r\n                \"targetTime\": 15,\r\n                \"retargetTime\": 60,\r\n                \"variancePercent\": 30\r\n            }\r\n        }\r\n    },\r\n\r\n    \"daemons\": [\r\n        {\r\n            \"host\": \"65.109.31.112\",\r\n            \"port\": 13862,\r\n            \"user\": \"rpcuser\",\r\n            \"password\": \"rpcpwd\"\r\n        }\r\n    ],\r\n\r\n    \"p2p\": {\r\n        \"enabled\": false,\r\n        \"host\": \"127.0.0.1\",\r\n        \"port\": 19333,\r\n        \"disableTransactions\": true\r\n    },\r\n\r\n    \"mposMode\": {\r\n        \"enabled\": false,\r\n        \"host\": \"127.0.0.1\",\r\n        \"port\": 3306,\r\n        \"user\": \"me\",\r\n        \"password\": \"mypass\",\r\n        \"database\": \"kmd\",\r\n        \"checkPassword\": true,\r\n        \"autoCreateWorker\": false\r\n    }\r\n}\r\n"
+        }
+    ]
+}
